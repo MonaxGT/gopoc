@@ -1,0 +1,26 @@
+poc:
+  - module: metadata
+    parameter:
+        cvss: 1
+        author: Makhinov Alex
+  - name: test №1 Yandex
+    description: test query to yandex.ru
+    module: http
+    parameter:
+      url: 'https://yandex.ru/'
+      method: GET
+      headers:
+        User-Agent: Firefox
+      expect_response_code: 200
+    time: 2017-11-15
+    case: 100
+  - name: test №2 Yandex
+    description: test query to yandex.ru
+    module: http
+    parameter:
+      url: 'https://yandex.ru/'
+      method: GET
+      find: "*"
+    time: 2017-12-15
+    case: 100
+
