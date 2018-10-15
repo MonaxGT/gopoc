@@ -3,7 +3,7 @@ package main
 import (
 	"flag"
 	"fmt"
-	"gitlab.com/rt-cert/gopoc"
+	"github/MonaxGT/gopoc"
 )
 
 func main() {
