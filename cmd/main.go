@@ -3,7 +3,7 @@ package main
 import (
 	"flag"
 	"fmt"
-	"github/MonaxGT/gopoc"
+	"github.com/MonaxGT/gopoc"
 )
 
 func main() {
