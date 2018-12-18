@@ -1,5 +1,7 @@
 # GoPOC (Golang Proof of concept checker) Beta version
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/e1b04411f33d4883a048e73a91a6d7bc)](https://app.codacy.com/app/MonaxGT/gopoc?utm_source=github.com&utm_medium=referral&utm_content=MonaxGT/gopoc&utm_campaign=Badge_Grade_Dashboard)
+
 Tools for check pocs vulnerabilities
 
 ### Example yaml-rule
